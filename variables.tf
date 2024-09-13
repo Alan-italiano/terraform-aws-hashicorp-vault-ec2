@@ -31,23 +31,23 @@ variable "PUB_KEY" {
 variable "domain_name" {
   description = "Domain Name"
   type        = string
-  default     = "lab-internal.com.br"
+  default     = ""
 }
 
 variable "route_53_zone_id" {
   description = "Route 53 Zone ID"
   type        = string
-  default     = "Z085094335FXPD3PXEQRT"
+  default     = "PASTE ZONE ID HERE"
 }
 
 variable "cert_san_1" {
   description = "Domain Name 1"
   type        = string
-  default     = "vault.lab-internal.com.br"
+  default     = ""
 }
 
 variable "cert_san_2" {
   description = "Domain Name 2"
   type        = string
-  default     = "vault-us.lab-internal.com.br"
+  default     = ""
 }
