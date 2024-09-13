@@ -51,3 +51,9 @@ variable "cert_san_2" {
   type        = string
   default     = ""
 }
+
+variable "aws_s3_bucket" {
+  description = "AWS S3 Bucket Name"
+  type        = string
+  default     = "vault-backup-bucket"
+}
