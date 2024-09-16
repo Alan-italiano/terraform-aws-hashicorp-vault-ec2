@@ -37,7 +37,7 @@ variable "domain_name" {
 variable "route_53_zone_id" {
   description = "Route 53 Zone ID"
   type        = string
-  default     = "PASTE ZONE ID HERE"
+  default     = ""
 }
 
 variable "cert_san_1" {
@@ -55,5 +55,5 @@ variable "cert_san_2" {
 variable "aws_s3_bucket" {
   description = "AWS S3 Bucket Name"
   type        = string
-  default     = "vault-backup-bucket"
+  default     = ""
 }
