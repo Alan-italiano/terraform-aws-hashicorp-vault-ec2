@@ -217,5 +217,6 @@ systemctl status vault
 #export VAULT_CLIENT_TIMEOUT=500s
 #export VAULT_ADDR='https://vault1:8200'
 #export VAULT_SKIP_VERIFY="true"
-#vault operator init -format=json
+#sleep 4
+#/usr/local/bin/vault operator init > initial-keys.json
 
